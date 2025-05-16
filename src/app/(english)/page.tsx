@@ -2,7 +2,11 @@
 "use client"; 
 
 
-
+export const metadata = {
+  title: "مكتب الشعالي للمحاماة",
+  description: "مكتب الشعالي للمحاماة يقدم خدمات قانونية متميزة في دولة الإمارات في مختلف التخصصات.",
+  keywords: [,"محمد السيد المحامي","محاماة", "قانون", "مكتب محاماة", "مكتب الشعالي", "محامي في الإمارات", " Alshaali Law Firm ", " Law Firm ", " Mohamed Alsayed lawyer "],
+};
 
 
 import Image from 'next/image';
@@ -103,6 +107,38 @@ export default function HomePage() {
                 <Link href="/services#labor" className={`${accentColor} font-medium hover:underline`}>Read More</Link>
               </CardContent>
             </Card>
+             <Card className="text-center hover:shadow-lg transition-shadow duration-300 border border-gray-200 rounded-lg overflow-hidden">
+              <CardHeader className="bg-gray-50 p-6">
+                 {/* Replace with new service image */}
+                 <CardTitle className={`${headingColor} text-xl font-semibold`}>Maritime Law</CardTitle>
+              </CardHeader>
+              <CardContent className="p-6">
+                <p className={`${secondaryTextColor} mb-4`}>We are experts in maritime law and provide specialized legal consultancy in this field.</p>
+                <Link href="/services#commercial" className={`${accentColor} font-medium hover:underline`}>Read More</Link>
+              </CardContent>
+            </Card>
+             <Card className="text-center hover:shadow-lg transition-shadow duration-300 border border-gray-200 rounded-lg overflow-hidden">
+              <CardHeader className="bg-gray-50 p-6">
+                 {/* Replace with new service image */}
+                 <CardTitle className={`${headingColor} text-xl font-semibold`}>Criminal Law</CardTitle>
+              </CardHeader>
+              <CardContent className="p-6">
+                <p className={`${secondaryTextColor} mb-4`}>We have extensive experience in criminal law and handle criminal cases with high professionalism.
+.</p>
+                <Link href="/services#labor" className={`${accentColor} font-medium hover:underline`}>Read More</Link>
+              </CardContent>
+            </Card>
+              <Card className="text-center hover:shadow-lg transition-shadow duration-300 border border-gray-200 rounded-lg overflow-hidden">
+              <CardHeader className="bg-gray-50 p-6">
+                 {/* Replace with new service image */}
+                 <CardTitle className={`${headingColor} text-xl font-semibold`}>Family Law</CardTitle>
+              </CardHeader>
+              <CardContent className="p-6">
+                <p className={`${secondaryTextColor} mb-4`}>We assist our clients in divorce, custody, and alimony cases with sensitivity and professionalism.
+.</p>
+                <Link href="/services#labor" className={`${accentColor} font-medium hover:underline`}>Read More</Link>
+              </CardContent>
+            </Card>
             {/* Add more cards as needed */}
           </div>
           <div className="text-center mt-10">
@@ -153,7 +189,7 @@ export default function HomePage() {
                 <p className={`text-sm ${secondaryTextColor} mb-2`}>April 20, 2025</p>
                 <CardTitle className={`${headingColor} text-lg font-semibold mb-3 hover:${accentColor} transition-colors`}><Link href="/blog/post-1">Understanding New UAE Labor Laws</Link></CardTitle>
                 <p className={`${secondaryTextColor} text-sm mb-4 line-clamp-3`}>A brief overview of the recent changes in the UAE labor regulations and what they mean for employers and employees...</p>
-                <Link href="/blog/post-1" className={`${accentColor} font-medium text-sm hover:underline`}>Read More</Link>
+                <Link href="/blog/" className={`${accentColor} font-medium text-sm hover:underline`}>Read More</Link>
               </CardContent>
             </Card>
              <Card className="hover:shadow-lg transition-shadow duration-300 border border-gray-200 rounded-lg overflow-hidden">
@@ -163,7 +199,7 @@ export default function HomePage() {
                 <p className={`text-sm ${secondaryTextColor} mb-2`}>April 15, 2025</p>
                 <CardTitle className={`${headingColor} text-lg font-semibold mb-3 hover:${accentColor} transition-colors`}><Link href="/blog/post-2">The Importance of Will Registration</Link></CardTitle>
                 <p className={`${secondaryTextColor} text-sm mb-4 line-clamp-3`}>Why registering your will in the UAE is crucial for asset protection and ensuring your wishes are followed...</p>
-                <Link href="/blog/post-2" className={`${accentColor} font-medium text-sm hover:underline`}>Read More</Link>
+                <Link href="/blog/" className={`${accentColor} font-medium text-sm hover:underline`}>Read More</Link>
               </CardContent>
             </Card>
              <Card className="hover:shadow-lg transition-shadow duration-300 border border-gray-200 rounded-lg overflow-hidden">
@@ -173,13 +209,13 @@ export default function HomePage() {
                 <p className={`text-sm ${secondaryTextColor} mb-2`}>April 10, 2025</p>
                 <CardTitle className={`${headingColor} text-lg font-semibold mb-3 hover:${accentColor} transition-colors`}><Link href="/blog/post-3">Navigating Real Estate Disputes</Link></CardTitle>
                 <p className={`${secondaryTextColor} text-sm mb-4 line-clamp-3`}>Common types of real estate disputes in Dubai and how expert legal advice can help resolve them effectively...</p>
-                <Link href="/blog/post-3" className={`${accentColor} font-medium text-sm hover:underline`}>Read More</Link>
+               <Link href="/blog/" className={`${accentColor} font-medium text-sm hover:underline`}>Read More</Link>
               </CardContent>
             </Card>
           </div>
           <div className="text-center mt-10">
             <Button asChild variant="outline" className={`border-[#1f2a3f] ${accentColor} hover:bg-sky-500 hover:bg-sky-600/10 font-semibold py-3 px-6 rounded-md transition duration-300`}>
-              <Link href="/blog">Visit Our Blog</Link>
+              <Link href="/blog/">Visit Our Blog</Link>
             </Button>
           </div>
         </div>

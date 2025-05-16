@@ -1,5 +1,10 @@
 
 "use client"; 
+export const metadata = {
+  title: "مكتب الشعالي للمحاماة",
+  description: "مكتب الشعالي للمحاماة يقدم خدمات قانونية متميزة في دولة الإمارات في مختلف التخصصات.",
+  keywords: [,"محمد السيد المحامي","محاماة", "قانون", "مكتب محاماة", "مكتب الشعالي", "محامي في الإمارات", " Alshaali Law Firm ", " Law Firm ", " Mohamed Alsayed lawyer "],
+};
 
 
 import Image from 'next/image';
@@ -37,14 +42,14 @@ export default function HomePage() {
               asChild 
               className={`${accentBgColor} ${hoverAccentBgColor} text-white font-semibold py-3 px-6 rounded-md transition duration-300 shadow-md hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#1f2a3f]`}
             >
-              <Link href="/contact">استشارة مجانية</Link>
+             <Link href="/arabic/contact/">استشارة مجانية</Link>
             </Button>
             <Button 
               variant="outline" 
               asChild 
               className="bg-white/10 hover:bg-white/20 border-white text-white font-semibold py-3 px-6 rounded-md transition duration-300 shadow-md hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-white"
             >
-              <Link href="/contact">إتصـل بنـا</Link>
+            <Link href="/arabic/contact" className={`${secondaryTextColor} ${headingColor} transition duration-300`}>اتصل بنا </Link>
             </Button>
           </div>
         </div>
@@ -59,7 +64,7 @@ export default function HomePage() {
           </p>
           {/* Placeholder for maybe some icons/key points */}
           <Button asChild variant="outline" className={`border-[#1f2a3f] ${accentColor} hover:bg-sky-500 hover:bg-sky-600/10 font-semibold py-3 px-6 rounded-md transition duration-300`}>
-            <Link href="/about">تعرف على المزيد عنا</Link>
+           <Link href="/arabic/about" className={`${secondaryTextColor} ${headingColor} transition duration-300`}>تعرف على المزيد عنا</Link>
           </Button>
         </div>
       </section>
@@ -77,7 +82,7 @@ export default function HomePage() {
               </CardHeader>
               <CardContent className="p-6">
                 <p className={`${secondaryTextColor} mb-4`}>معالجة النزاعات المتعلقة بالعقود والملكية والحقوق الشخصية</p>
-                <Link href="/services#civil" className={`${accentColor} font-medium hover:underline`}>المـزيد</Link>
+            <Link href="/arabic/services" className={`${secondaryTextColor} ${headingColor} transition duration-300`}>قراءة المزيد</Link>
               </CardContent>
             </Card>
              <Card className="text-center hover:shadow-lg transition-shadow duration-300 border border-gray-200 rounded-lg overflow-hidden">
@@ -87,7 +92,7 @@ export default function HomePage() {
               </CardHeader>
               <CardContent className="p-6">
                 <p className={`${secondaryTextColor} mb-4`}>تقديم المشورة للشركات بشأن المسائل المتعلقة بالشركات والتجارة والمعاملات</p>
-                <Link href="/services#commercial" className={`${accentColor} font-medium hover:underline`}>المـزيد</Link>
+            <Link href="/arabic/services" className={`${secondaryTextColor} ${headingColor} transition duration-300`}> قراءة المزيد</Link>
               </CardContent>
             </Card>
              <Card className="text-center hover:shadow-lg transition-shadow duration-300 border border-gray-200 rounded-lg overflow-hidden">
@@ -97,14 +102,48 @@ export default function HomePage() {
               </CardHeader>
               <CardContent className="p-6">
                 <p className={`${secondaryTextColor} mb-4`}>تمثيل أصحاب العمل والموظفين في النزاعات العمالية والعقود</p>
-                <Link href="/services#labor" className={`${accentColor} font-medium hover:underline`}>المـزيد</Link>
+            <Link href="/arabic/services" className={`${secondaryTextColor} ${headingColor} transition duration-300`}>قراءة المزيد</Link>
+              </CardContent>
+            </Card>
+              <Card className="text-center hover:shadow-lg transition-shadow duration-300 border border-gray-200 rounded-lg overflow-hidden">
+              <CardHeader className="bg-gray-50 p-6">
+                 {/* Replace with new service image */}
+                 <CardTitle className={`${headingColor} text-xl font-semibold`}> القانون البحري</CardTitle>
+              </CardHeader>
+              <CardContent className="p-6">
+                <p className={`${secondaryTextColor} mb-4`}>نحن خبراء في القانون البحري ونقدم استشارات قانونية متخصصة في هذا المجال</p>
+            <Link href="/arabic/services" className={`${secondaryTextColor} ${headingColor} transition duration-300`}>من نحن</Link>
+              </CardContent>
+            </Card>  <Card className="text-center hover:shadow-lg transition-shadow duration-300 border border-gray-200 rounded-lg overflow-hidden">
+              <CardHeader className="bg-gray-50 p-6">
+                 {/* Replace with new service image */}
+                 <CardTitle className={`${headingColor} text-xl font-semibold`}>القانون الجنائي</CardTitle>
+              </CardHeader>
+              <CardContent className="p-6">
+                <p className={`${secondaryTextColor} mb-4`}>نتمتع بخبرة واسعة في القانون الجنائي ونتولى القضايا الجنائية باحترافية عالية</p>
+            <Link href="/arabic/services" className={`${secondaryTextColor} ${headingColor} transition duration-300`}>قراءة المزيد </Link>
+              </CardContent>
+            </Card>  
+            <Card className="text-center hover:shadow-lg transition-shadow duration-300 border border-gray-200 rounded-lg overflow-hidden">
+              <CardHeader className="bg-gray-50 p-6">
+                 {/* Replace with new service image */}
+                 <CardTitle className={`${headingColor} text-xl font-semibold`}>قانون الأسرة </CardTitle>
+   
+
+              </CardHeader>
+                           
+              <CardContent className="p-6">
+                                 <p className={`${secondaryTextColor} mb-4`}>نساعد عملاءنا في قضايا الطلاق، الحضانة، والنفقة بكل حساسية واحتراف.
+</p>
+                <p className={`${secondaryTextColor} mb-4`}></p>
+            <Link href="/arabic/services" className={`${secondaryTextColor} ${headingColor} transition duration-300`}>من نحن</Link>
               </CardContent>
             </Card>
             {/* Add more cards as needed */}
           </div>
           <div className="text-center mt-10">
             <Button asChild className={`${accentBgColor} ${hoverAccentBgColor} text-white font-semibold py-3 px-6 rounded-md transition duration-300 shadow-md hover:shadow-lg`}>
-              <Link href="/services">عرض جميع الخدمات</Link>
+            <Link href="/arabic/services" className={`${secondaryTextColor} ${headingColor} transition duration-300`}>قراءة المزيد </Link>
             </Button>
           </div>
         </div>
@@ -150,7 +189,7 @@ export default function HomePage() {
                 <p className={`text-sm ${secondaryTextColor} mb-2`}>أبريل 20 2025</p>
                 <CardTitle className={`${headingColor} text-lg font-semibold mb-3 hover:${accentColor} transition-colors`}><Link href="/blog/post-1">فهم قوانين العمل الجديدة في دولة الإمارات العربية المتحدة</Link></CardTitle>
                 <p className={`${secondaryTextColor} text-sm mb-4 line-clamp-3`}>نظرة عامة موجزة على التغييرات الأخيرة في قوانين العمل في دولة الإمارات العربية المتحدة وما تعنيه لأصحاب العمل والموظفين...</p>
-                <Link href="/blog/post-1" className={`${accentColor} font-medium text-sm hover:underline`}>المـزيد</Link>
+                 <Link href="/arabic/blog/" className={`${secondaryTextColor} ${headingColor} transition duration-300`}>المـزيد</Link>
               </CardContent>
             </Card>
              <Card className="hover:shadow-lg transition-shadow duration-300 border border-gray-200 rounded-lg overflow-hidden">
@@ -160,7 +199,7 @@ export default function HomePage() {
                 <p className={`text-sm ${secondaryTextColor} mb-2`}>أبريل 15 2025</p>
                 <CardTitle className={`${headingColor} text-lg font-semibold mb-3 hover:${accentColor} transition-colors`}><Link href="/blog/post-2">أهمية تسجيل الوصية</Link></CardTitle>
                 <p className={`${secondaryTextColor} text-sm mb-4 line-clamp-3`}>لماذا يعد تسجيل وصيتك في الإمارات العربية المتحدة أمرًا بالغ الأهمية لحماية أصولك وضمان تنفيذ رغباتك...</p>
-                <Link href="/blog/post-2" className={`${accentColor} font-medium text-sm hover:underline`}>المـزيد</Link>
+                <Link href="/arabic/blog/" className={`${accentColor} font-medium text-sm hover:underline`}>المـزيد</Link>
               </CardContent>
             </Card>
              <Card className="hover:shadow-lg transition-shadow duration-300 border border-gray-200 rounded-lg overflow-hidden">
@@ -170,13 +209,13 @@ export default function HomePage() {
                 <p className={`text-sm ${secondaryTextColor} mb-2`}>أبريل 10 2025</p>
                 <CardTitle className={`${headingColor} text-lg font-semibold mb-3 hover:${accentColor} transition-colors`}><Link href="/blog/post-3">التعامل مع النزاعات العقارية</Link></CardTitle>
                 <p className={`${secondaryTextColor} text-sm mb-4 line-clamp-3`}>أنواع النزاعات العقارية الشائعة في دبي وكيف يمكن للمشورة القانونية المتخصصة أن تساعد في حلها بشكل فعال...</p>
-                <Link href="/blog/post-3" className={`${accentColor} font-medium text-sm hover:underline`}>المـزيد</Link>
+                 <Link href="/arabic/blog/" className={`${accentColor} font-medium text-sm hover:underline`}>المـزيد</Link>
               </CardContent>
             </Card>
           </div>
           <div className="text-center mt-10">
             <Button asChild variant="outline" className={`border-[#1f2a3f] ${accentColor} hover:bg-sky-500 hover:bg-sky-600/10 font-semibold py-3 px-6 rounded-md transition duration-300`}>
-              <Link href="/blog">مدونتنــا</Link>
+              <Link href="/arabic/blog/">مدونتنــا</Link>
             </Button>
           </div>
         </div>
@@ -192,7 +231,7 @@ export default function HomePage() {
             variant="outline" 
             className="bg-white text-[#1f2a3f] hover:bg-gray-100 font-semibold py-3 px-6 rounded-md transition duration-300 shadow-md hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-white"
           >
-            <Link href="/contact">تواصل معنا</Link>
+           <Link href="/arabic/contact/">تواصل معنا</Link>
           </Button>
         </div>
       </section>

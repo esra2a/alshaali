@@ -71,16 +71,16 @@ export default function BlogPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10">
             {blogPosts.map((post, index) => (
               <div key={index} className={`${cardBgColor} rounded-lg shadow-md overflow-hidden border border-gray-100 flex flex-col transition duration-300 hover:shadow-xl group`}>
-                <Link href={`/blog/${post.slug}`} className="block aspect-video relative overflow-hidden">
+                <Link href={`/arabic/blog/`} className="block aspect-video relative overflow-hidden">
                   <Image src={post.image} alt={post.title} layout="fill" objectFit="cover" className="transition duration-300 group-hover:scale-105"/>
                 </Link>
                 <div className="p-6 flex flex-col flex-grow">
                   <p className="text-xs text-gray-400 mb-2 uppercase tracking-wider">{post.date}</p>
-                  <Link href={`/blog/${post.slug}`} className="block">
+                  <Link href={`/arabic/blog/`} className="block">
                     <h3 className={`text-lg font-semibold ${headingColor} mb-3 hover:${accentColor} transition duration-300 leading-snug`}>{post.title}</h3>
                   </Link>
                   <p className={`${secondaryTextColor} text-sm mb-4 flex-grow`}>{post.excerpt}</p>
-                  <Link href={`/blog/${post.slug}`} className={`${accentColor} font-medium text-sm mt-auto inline-flex items-center`}>
+                  <Link href={`/arabic/blog/`} className={`${accentColor} font-medium text-sm mt-auto inline-flex items-center`}>
                   <ArrowLeft className="ml-1 h-4 w-4" /> المـزيد
                   </Link>
                 </div>

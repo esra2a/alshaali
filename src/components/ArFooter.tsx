@@ -66,8 +66,8 @@ const Footer = () => {
             </li>
             <li className="flex items-start">
               <svg className={`w-5 h-5  #29385 mr-2 mt-0.5 flex-shrink-0`} fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
-              <a href="mailto:info@ahmed-sa.com" className="text-gray-700 hover:text-[#293852] transition duration-300 block mt-1">
-  info@ahmed-sa.com
+              <a href="mailto:info@alshaaliattorneys.ae" className="text-gray-700 hover:text-[#293852] transition duration-300 block mt-1">
+ info@alshaaliattorneys.ae
 </a>            </li>
           </ul>
         </div>
