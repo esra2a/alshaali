@@ -54,7 +54,7 @@ export default function ContactPage() {
                 <Phone className={`w-6 h-6 ${accentColor} mr-4 mt-1 flex-shrink-0`} />
                 <div>
                   <h3 className={`text-lg font-semibold ${headingColor} mb-1`}>Phone</h3>
-                  <a href="#" className={`text-gray-700 hover:${accentColor} transition duration-300`}>Our Phone Number</a>
+                  <a href="#" className={`text-gray-700 hover:${accentColor} transition duration-300`}> +971567778217</a>
                 </div>
               </div>
               <div className="flex items-start">
@@ -68,8 +68,8 @@ export default function ContactPage() {
               <div className="flex items-start">
                 <MapPin className={`w-6 h-6 ${accentColor} mr-4 mt-1 flex-shrink-0`} />
                 <div>
-                  <h3 className={`text-lg font-semibold ${headingColor} mb-1`}>Office Address</h3>
-                  <p className="text-gray-700">Our Office Address</p>
+                  <h3 className={`text-lg font-semibold ${headingColor} mb-1`}></h3>
+                  <p className="text-gray-700"></p>
                 </div>
               </div>
               <div className="flex items-start">

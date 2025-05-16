@@ -18,8 +18,11 @@ const accentBgColor = 'bg-[#1f2a3f]';
 const hoverAccentBgColor = 'hover:bg-[#256d45]'; // Darker shade for hover
 
 export const metadata: Metadata = {
-  title: "Law Firm Name - Attorneys at Law", // Replace with actual name later
+  title: "Alshaali Law Firm  - Attorneys at Law", // Replace with actual name later
   description: "Expert legal services in Dubai, UAE. Contact us for consultation on civil, commercial, labor law, and more.",
+   icons: {
+    icon: '/assets/favicon.png',
+  },
 };
 
 export default function RootLayout({

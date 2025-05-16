@@ -7,6 +7,7 @@ export const metadata = {
   description: "مكتب الشعالي للمحاماة يقدم خدمات قانونية متميزة في دولة الإمارات في مختلف التخصصات.",
   keywords: [,"محمد السيد المحامي","محاماة", "قانون", "مكتب محاماة", "مكتب الشعالي", "محامي في الإمارات", " Alshaali Law Firm ", " Law Firm ", " Mohamed Alsayed lawyer "],
 };
+<link rel="icon" href="/favicon.ico" />
 
 
 import Image from 'next/image';
