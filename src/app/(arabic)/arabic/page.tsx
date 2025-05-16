@@ -1,9 +1,9 @@
 
-"use client"; 
+
 export const metadata = {
   title: "مكتب الشعالي للمحاماة",
   description: "مكتب الشعالي للمحاماة يقدم خدمات قانونية متميزة في دولة الإمارات في مختلف التخصصات.",
-  keywords: [,"محمد السيد المحامي","محاماة", "قانون", "مكتب محاماة", "مكتب الشعالي", "محامي في الإمارات", " Alshaali Law Firm ", " Law Firm ", " Mohamed Alsayed lawyer "],
+  keywords: ["محمد السيد المحامي","محاماة", "قانون", "مكتب محاماة", "مكتب الشعالي", "محامي في الإمارات", " Alshaali Law Firm ", " Law Firm ", " Mohamed Alsayed lawyer "],
 };
 
 
