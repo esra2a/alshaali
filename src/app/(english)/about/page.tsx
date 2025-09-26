@@ -30,7 +30,7 @@ export default function AboutPage() {
              <span className={`text-sm font-semibold ${accentColor} uppercase tracking-wider mb-2 block`}>Our Foundation</span>
             <h2 className={`text-3xl md:text-4xl font-bold ${headingColor} mb-5 leading-tight`}>Justice, Expertise, and Client Dedication</h2>
             <p className={`${secondaryTextColor} mb-4 text-base leading-relaxed`}>
-              At [Law Firm Name], we believe justice begins with the right step. We leverage extensive legal expertise and a deep understanding of UAE laws to serve our clients with unwavering commitment and professionalism. We offer comprehensive solutions across diverse fields, from civil and commercial litigation to specialized consultations.
+              At Ahmed Alshaali Attorneys, we believe justice begins with the right step. We leverage extensive legal expertise and a deep understanding of UAE laws to serve our clients with unwavering commitment and professionalism. We offer comprehensive solutions across diverse fields, from civil and commercial litigation to specialized consultations.
             </p>
             <p className={`${secondaryTextColor} text-base leading-relaxed`}>
               Transparency and innovation are core to our practice. We strive to achieve the best possible outcomes by navigating complex legal landscapes effectively and building lasting relationships based on trust.
