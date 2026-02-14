@@ -32,7 +32,7 @@ const teamMembers = [
     name: "محمد الشناوي",
     title: "مستشار قانوني ",
     image: "/assets/Mohamed.jpg",
-    bio: " خبرة عشر سنوات في  المحاماه",
+    bio: " خبرة عشرة سنوات في  المحاماه",
     
   },
    {
@@ -42,9 +42,9 @@ const teamMembers = [
     bio: "         .",
     
   },   {
-    name: "محمد سمير",
+    name:"ياسر خليل ",
     title: "مستشار قانوني ",
-    image: "/assets/Mohamed Samir.jpg",
+      image: "/assets/Yasserkhalil.jpeg",
     
     
   },
@@ -56,7 +56,12 @@ const teamMembers = [
     
   },
  
-
+{
+    name: "فتحي ابرهيم",
+    title: "مستشار قانوني",
+    image: "/assets/fathy.jpg",
+    bio: "",
+  },
   
 
  
@@ -75,9 +80,9 @@ const teamMembers = [
     
   },
      {
-    name: " أحمد طه   ",
+    name: "عمرو موسي    ",
     title: "باحث قانوني  ",
-    image: "/assets/Ahmed taha.jpg", // Use a different image or generic placeholder
+        image: "/assets/amr mosa.jpeg",// Use a different image or generic placeholder
     bio: "         .",
     
   },

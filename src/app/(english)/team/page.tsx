@@ -40,9 +40,9 @@ const teamMembers = [
     bio: "",
   },
   {
-    name: "Mohamed Samir",
+    name: "Yasser Khalil",
     title: "Legal Advisor",
-    image: "/assets/Mohamed Samir.jpg",
+    image: "/assets/Yasserkhalil.jpeg",
   },
   {
     name: "Ahmed Sheta",
@@ -50,7 +50,13 @@ const teamMembers = [
     image: "/assets/Ahmed sheta.jpg",
   },
   {
-    name: "Abeer",
+    name: "Fathy Ibrahim",
+    title: "Legal Advisor",
+  image: "/assets/fathy.jpg",
+    bio: "",
+  },
+  {
+    name: "Abeer Helal",
     title: "Legal Researcher",
     image: "/assets/abier.jpg",
   },
@@ -59,10 +65,11 @@ const teamMembers = [
     title: "Legal Assistant",
     image: "/assets/asmaa.jpg",
   },
-  {
-    name: "Ahmed Taha",
+
+   {
+    name: "Amr Mosa",
     title: "Legal Researcher",
-    image: "/assets/Ahmed taha.jpg",
+    image: "/assets/amr mosa.jpeg",
     bio: "",
   },
   {
