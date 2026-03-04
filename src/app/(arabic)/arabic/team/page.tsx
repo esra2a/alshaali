@@ -41,13 +41,7 @@ const teamMembers = [
     image: "/assets/youbin Ma.jpg", // Use a different image or generic placeholder
     bio: "         .",
     
-  },   {
-    name:"ياسر خليل ",
-    title: "مستشار قانوني ",
-      image: "/assets/Yasserkhalil.jpeg",
-    
-    
-  },
+  },  
  {
     name: "أحمد شتا",
     title: "مستشار قانوني ",
@@ -106,12 +100,7 @@ const teamMembers = [
     image: "/assets/maria.jpg", // Use a different image or generic placeholder
     
   },
-    {
-    name: "   أحمد أسامة  ",
-    title: "  محاسب",
-    image: "/assets/Ahmed Osama.jpg", // Use a different image or generic placeholder
     
-  },
 ];
 
 export default function TeamPage() {

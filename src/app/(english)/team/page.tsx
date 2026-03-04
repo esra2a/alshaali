@@ -39,11 +39,7 @@ const teamMembers = [
     image: "/assets/youbin Ma.jpg",
     bio: "",
   },
-  {
-    name: "Yasser Khalil",
-    title: "Legal Advisor",
-    image: "/assets/Yasserkhalil.jpeg",
-  },
+  
   {
     name: "Ahmed Sheta",
     title: "Legal Advisor",
@@ -88,11 +84,7 @@ const teamMembers = [
     title: "Legal Assistant",
     image: "/assets/maria.jpg",
   },
-  {
-    name: "Ahmed Osama",
-    title: "Accountant",
-    image: "/assets/Ahmed Osama.jpg",
-  },
+
 ];
 
 
