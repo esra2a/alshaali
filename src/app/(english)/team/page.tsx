@@ -48,7 +48,7 @@ const teamMembers = [
   {
     name: "Yasser Khalil",
     title: "Legal Advisor",
-  image: "/assets/Yasserkhalil.jpg",
+  image: "/assets/Yasserkhalil.jpeg",
     bio: "",
   },
   {
