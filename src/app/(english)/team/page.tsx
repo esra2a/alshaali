@@ -46,9 +46,9 @@ const teamMembers = [
     image: "/assets/Ahmed sheta.jpg",
   },
   {
-    name: "Fathy Ibrahim",
+    name: "Yasser Khalil",
     title: "Legal Advisor",
-  image: "/assets/fathy.jpg",
+  image: "/assets/Yasserkhalil.jpg",
     bio: "",
   },
   {
@@ -62,12 +62,12 @@ const teamMembers = [
     image: "/assets/asmaa.jpg",
   },
 
-   {
+   /*{
     name: "Amr Mosa",
     title: "Legal Researcher",
     image: "/assets/amr mosa.jpeg",
     bio: "",
-  },
+  },*/
   {
     name: "Mostafa Amer",
     title: "Legal Researcher",

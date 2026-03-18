@@ -51,9 +51,9 @@ const teamMembers = [
   },
  
 {
-    name: "فتحي ابرهيم",
+    name: " ياسر خليل",
     title: "مستشار قانوني",
-    image: "/assets/fathy.jpg",
+    image: "/assets/Yasserkhalil.jpg",
     bio: "",
   },
   
@@ -73,13 +73,13 @@ const teamMembers = [
     image: "/assets/asmaa.jpg", // Use a different image or generic placeholder
     
   },
-     {
+    /* {
     name: "عمرو موسي    ",
     title: "باحث قانوني  ",
         image: "/assets/amr mosa.jpeg",// Use a different image or generic placeholder
     bio: "         .",
     
-  },
+  },*/
    {
     name: " مصطفي عامر   ",
     title: "باحث قانوني  ",
