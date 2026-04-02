@@ -18,7 +18,7 @@ const teamMembers = [
   {
     name: "Ahmed Alshaali",
     title: "Lawyer - Owner",
-    image: "/assets/ahmedalshaali.jpg",
+    image: "/assets/ahmedalshaali.jpeg",
     bio: "Extensive experience in all areas of legal practice.",
   },
   {
