@@ -18,7 +18,7 @@ const teamMembers = [
   {
     name: "أحمد الشعالي ",
     title: "محامي -المالك ",
-    image: "/assets/ahmed alsheaali.jpg",
+    image: "/assets/ahmedalshaali.jpg",
     bio: "خبرة واسعة في كافة مجالات المحاماه.",
   
   },
