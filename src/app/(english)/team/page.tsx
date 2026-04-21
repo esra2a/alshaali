@@ -67,13 +67,13 @@ const teamMembers = [
     title: "Legal Researcher",
     image: "/assets/amr mosa.jpeg",
     bio: "",
-  },*/
+  },
   {
     name: "Mostafa Amer",
     title: "Legal Researcher",
     image: "/assets/Mostafa amer.jpg",
     bio: "",
-  },
+  },*/
   {
     name: "Adel Zahran",
     title: "Legal Assistant",

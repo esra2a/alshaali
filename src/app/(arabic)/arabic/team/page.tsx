@@ -79,14 +79,14 @@ const teamMembers = [
         image: "/assets/amr mosa.jpeg",// Use a different image or generic placeholder
     bio: "         .",
     
-  },*/
+  },
    {
     name: " مصطفي عامر   ",
     title: "باحث قانوني  ",
     image: "/assets/Mostafa amer.jpg", // Use a different image or generic placeholder
     bio: "         .",
     
-  },
+  },*/
     {
     name: "    عادل زهران ",
     title: " مساعد قانوني ",
